@@ -1,0 +1,294 @@
+/* "*" is setting the margin and padding at 0 while have the box sizing set to border box */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+/* .Top-image is setting the size and positioning of the image in the header*/
+.Top-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-position: center ;
+}
+/* .header is setting the font, colors, and padding for only the header */
+.header {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #5d8aa8;
+    color: #264348;
+    
+}
+
+/* .header h1 is to put the h1 text vertically while having a bigger font and have a larger top margin */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+    margin-top: 10px;
+}
+
+/* .header nav only focuses on the navbar text to make it float on the right side, have a bigger font, and larger padding and right margin  */
+.header nav {
+    padding-top: 25px;
+    margin-right: 20px;
+    float: right;
+    font-size: 27px;    
+}
+
+/* .header nav ul make the bullet points in the ul go away */
+.header nav ul {
+    list-style-type: none;
+}
+
+/* .header nav ul li makes sure the li text shows vertically with a left margin set to 50px */
+.header nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+
+}
+
+/* .header nav ul li a makes sure the "a" text to have a color, bold/thickness, and line on top */
+.header nav ul li a {
+    color: #264348;
+    font-weight: 600;
+    text-decoration: overline;
+    text-decoration-thickness: 15%;
+
+}
+
+/* Container is the parent that makes the flexboxes (children) work in the HTML. 
+This sets the width, height, display, and direction of the boxes, the order of the boxes, and makes the boxes go in the center */
+.flex-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Makes h2 in the flex container have a larger right margin and font size */
+.flex-container h2 {
+    margin-right: 50px;
+    font-size: 40px;
+}
+
+/* .Flexbox-1 sets the width, padding, left margin, padding, makes display flex */
+.Flexbox-1 {
+    border-radius: 0%;
+    width: 100%;        
+    padding: 50px;
+    margin-left: 0;
+    display:flex;
+}
+
+/* Makes h2 font size larger */
+.Flexbox-1 h2 {
+    font-size: 40px;
+}
+
+/* Sets the width, height, border lines, font size, aligns text in the center, and makes borders curved */
+.flexbox-2{
+    width: 200px;
+    height: 200px;
+    border: 7px solid #264348;
+    color:#264348;
+    font-size: 22px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+/* .card-1 makes the size of the flex box and put an image inside */
+.card-1 {
+    width: 1200px;
+    height: 400px;
+    background-image: url(https://www.codingdojo.com/blog/wp-content/uploads/codelaptop.jpg);
+    
+}
+
+
+/* .card-2 makes the size of the flex box and put an image inside */
+.card-2 {
+    width: 600px;
+    height: 200px;
+    margin-left: 140px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXCQ_Cp98YOD8EU_8UAWmT41qlVByVp8aQYQ&usqp=CAU);
+
+}
+
+
+/* .card-3 makes the size of the flex box and put an image inside */
+.card-3{
+    width: 600px;
+    height: 200px;
+    background-image: url(https://wallpapers.com/images/high/basic-black-and-white-calculator-ap38v4tgv731d8qn.webp);
+}
+
+
+/* .card-4 makes the size of the flex box and put an image inside */
+.card-4{
+    width: 600px;
+    height: 200px;
+    margin-left: 140px;
+    background-image: url(https://hookedmarketing.net/wp-content/uploads/2019/04/Top-Three-Types-of-Business-Websites.jpeg);
+}
+
+
+/* .card-5 makes the size of the flex box and put an image inside */
+.card-5{
+    width: 600px;
+    height: 200px;
+    background-image: url(https://as2.ftcdn.net/v2/jpg/01/99/95/35/1000_F_199953528_TuT7SvmVAf8gqHnM0vV7xjjl4Xh9yQ6I.jpg);
+}
+
+
+/* Makes the About-Me text larger and bolder with a larger left margin*/
+.Text-p {
+    margin-left: 50px;
+    font-weight: 900;
+    font-size: 18px;
+    
+}
+
+/* Sets the whole section the font of "Courier New" */
+.section{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/* Makes the text inside the flexboxes a different color, puts a background for the only the text, and makes the underline go away */
+.card-text{
+    color: #264348;
+    text-decoration: none;
+    background-color: white;
+}
+
+/* Sets size of the image and makes sure it cover the whole flexbox */
+.card-img-1{
+    width: 1200px;
+    height: 400px;
+    background-size: cover;
+    
+
+}
+
+/* Sets a different opacity once user hovers over the image */
+.card-img-1:hover{
+    opacity: .5;
+}
+
+/* Sets size of the image and makes sure it cover the whole flexbox */
+.card-img-2{
+    width: 600px;
+    height: 200px;
+    margin-left: 140px;
+    background-size: cover;
+}
+
+/* Sets a different opacity once user hovers over the image */
+.card-img-2:hover{
+    opacity: .5;
+}
+
+/* Sets size of the image and makes sure it cover the whole flexbox */
+.card-img-3{
+    width: 600px;
+    height: 200px;
+    background-size: cover;
+}
+
+/* Sets a different opacity once user hovers over the image */
+.card-img-3:hover{
+    opacity: .5;
+}
+
+/* Sets padding, font and color of text*/
+.Contact-Me{
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #264348;
+}
+
+/* Makes only the h2 in the class Contact-Me a different font, margin */
+.Contact-Me h2 {
+    
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+/* Sets the padding, right margin, makes text float right and sets font size */
+.Contact-Me nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 27px;    
+}
+
+/* Makes text have no bullet points */
+.Contact-Me nav ul {
+    list-style-type: none;
+}
+
+/* Makes text go vertically, sets margins  */
+.Contact-Me nav ul li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+
+}
+ 
+/* Sets color and makes text bolder, and have a line on top */
+.Contact-Me nav ul li a {
+    color: #264348;
+    font-weight: 600;
+    text-decoration: overline;
+    text-decoration-thickness: 15%;
+
+}
+
+/* media queries makes this webpage usuable to users on different devices */
+/* When under 992px body width changes and color of header changes */
+@media screen and (max-width: 992px) {
+    .body{
+      width: 50%;
+    }
+
+    .header {
+      background: #772014;
+    }
+  }
+  
+  /* When under 768px each image in the "Work" article will decrease width to 50% changes header color*/
+  @media screen and (max-width: 768px) {
+    .card-1 {
+      width: 50%;
+    }
+
+    .card-2 {
+        width: 50%;
+      }
+
+      .card-3 {
+        width: 50%;
+      }
+
+      .card-4 {
+        width: 50%;
+      }
+
+      .card-5 {
+        width: 50%;
+      }
+
+    .header {
+      background: #8ac4ff;
+    }
+  }
+   
+
+
+
+
